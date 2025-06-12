@@ -1,11 +1,11 @@
 import React from 'react'
-import { Button } from 'components/ui'
+import { Button } from '../../../components/ui'
 import {
 	HEADER_HEIGHT_CLASS,
 	DIR_LTR,
 	DIR_RTL
-} from 'constants/theme.constant'
-import VerticalMenuContent from 'components/template/VerticalMenuContent'
+} from '../../../constants/theme.constant'
+import VerticalMenuContent from '../../../components/template/VerticalMenuContent'
 import { 
 	HiOutlineArrowSmLeft,
 	HiOutlineArrowSmRight

@@ -1,6 +1,6 @@
 import React from 'react'
 import navigationIcon from 'configs/navigation-icon.config'
-import { MenuItem } from 'components/ui'
+import { MenuItem } from '../../../components/ui'
 import HorizontalMenuNavLink from './HorizontalMenuNavLink'
 import { useTranslation } from 'react-i18next'
 

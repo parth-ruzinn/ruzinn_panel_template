@@ -1,10 +1,10 @@
 import React from 'react'
-import { Radio } from 'components/ui'
+import { Radio } from '../../../components/ui'
 import { useSelector, useDispatch } from 'react-redux'
-import { setNavMode } from 'store/theme/themeSlice'
+import { setNavMode } from '../../../store/theme/themeSlice'
 import {
 	NAV_MODE_THEMED
-} from 'constants/theme.constant'
+} from '../../../constants/theme.constant'
 
 const NavModeSwitcher = () => {
 

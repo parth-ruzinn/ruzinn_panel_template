@@ -1,6 +1,6 @@
 import React, { memo, useMemo, lazy, Suspense } from "react";
-import { Loading } from "../shared";
 import { useSelector } from "react-redux";
+import { Loading } from "../shared";
 import { LAYOUT_TYPE_CLASSIC } from "../../constants/theme.constant";
 import useAuth from "../../utils/hooks/useAuth";
 import useDirection from "../../utils/hooks/useDirection";

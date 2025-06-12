@@ -1,9 +1,9 @@
 import React, { Suspense } from 'react'
 import PropTypes from 'prop-types'
 import classNames from 'classnames'
-import { Container } from 'components/shared'
-import { PAGE_CONTAINER_GUTTER_X, PAGE_CONTAINER_GUTTER_Y } from 'constants/theme.constant' 
-import Footer from 'components/template/Footer'
+import { Container } from '../../components/shared'
+import { PAGE_CONTAINER_GUTTER_X, PAGE_CONTAINER_GUTTER_Y } from '../../constants/theme.constant' 
+import Footer from '../../components/template/Footer'
 
 const CustomHeader = ({header}) => {
 	const Header = header

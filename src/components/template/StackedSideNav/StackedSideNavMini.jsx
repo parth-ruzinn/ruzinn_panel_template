@@ -1,17 +1,17 @@
 import React, { useEffect } from 'react'
-import Logo from 'components/template/Logo'
-import { Menu } from 'components/ui'
+import Logo from '../../../components/template/Logo'
+import { Menu } from '../../../components/ui'
 import { 
 	NAV_MODE_DARK, 
 	NAV_MODE_THEMED, 
 	NAV_MODE_TRANSPARENT,
 	SIDE_NAV_CONTENT_GUTTER,
-} from 'constants/theme.constant'
-import { NAV_ITEM_TYPE_ITEM } from 'constants/navigation.constant'
-import { AuthorityCheck } from 'components/shared'
-import navigationConfig from 'configs/navigation.config'
-import navigationIcon from 'configs/navigation-icon.config'
-import useMenuActive from 'utils/hooks/useMenuActive'
+} from '../../../constants/theme.constant'
+import { NAV_ITEM_TYPE_ITEM } from '../../../constants/navigation.constant'
+import { AuthorityCheck } from '../../../components/shared'
+import navigationConfig from '../../../configs/navigation.config'
+import navigationIcon from '../../../configs/navigation-icon.config'
+import useMenuActive from '../../../utils/hooks/useMenuActive'
 import isEmpty from 'lodash/isEmpty'
 import { Link } from 'react-router-dom'
 import { useSelector } from 'react-redux'

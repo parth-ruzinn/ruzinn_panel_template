@@ -1,5 +1,5 @@
 import React from 'react'
-import { PAGES_PREFIX_PATH } from '../../constants/route.constant'
+// import { PAGES_PREFIX_PATH } from '../../constants/route.constant'
 import { ADMIN, USER } from '../../constants/roles.constant'
 
 const pagesRoute = [

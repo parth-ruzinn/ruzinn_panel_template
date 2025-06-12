@@ -1,8 +1,8 @@
 import React from 'react'
 import classNames from 'classnames'
-import HorizontalMenuContent from 'components/template/HorizontalMenuContent'
-import { NAV_MODE_THEMED } from 'constants/theme.constant'
-import useResponsive from 'utils/hooks/useResponsive'
+import HorizontalMenuContent from '../../components/template/HorizontalMenuContent'
+import { NAV_MODE_THEMED } from '../../constants/theme.constant'
+import useResponsive from '../../utils/hooks/useResponsive'
 import { useSelector } from 'react-redux'
 
 const SecondaryHeader = props => {

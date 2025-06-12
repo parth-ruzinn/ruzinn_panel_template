@@ -1,7 +1,7 @@
 import React, { cloneElement } from "react";
 import { Container } from "../../shared";
 import { Card } from "../../ui";
-import Logo from "../../components/template/Logo";
+import Logo from "../../template/Logo";
 
 const Layout = ({ children, content, ...rest }) => {
   return (

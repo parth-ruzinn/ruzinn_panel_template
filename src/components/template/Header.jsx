@@ -1,7 +1,7 @@
 import React from 'react'
 import classNames from 'classnames'
 import PropTypes from 'prop-types'
-import { HEADER_HEIGHT_CLASS } from 'constants/theme.constant'
+import { HEADER_HEIGHT_CLASS } from '../../constants/theme.constant'
 
 const Header = props => {
 

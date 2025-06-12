@@ -1,6 +1,6 @@
 import React from 'react'
 import HorizontalMenuContent from './HorizontalMenuContent'
-import useResponsive from 'utils/hooks/useResponsive'
+import useResponsive from '../../utils/hooks/useResponsive'
 import { useSelector } from 'react-redux'
 
 const HorizontalNav = () => {

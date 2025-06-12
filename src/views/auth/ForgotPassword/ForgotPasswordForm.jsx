@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-import { Input, Button, FormItem, FormContainer, Alert } from "components/ui";
-import { ActionLink } from "components/shared";
+import { Input, Button, FormItem, FormContainer, Alert } from "../../../components/ui";
+import { ActionLink } from "../../../components/shared";
 // import { apiForgotPassword } from 'services/AuthService'
-import useTimeOutMessage from "utils/hooks/useTimeOutMessage";
+import useTimeOutMessage from "../../../utils/hooks/useTimeOutMessage";
 import { Field, Form, Formik } from "formik";
 import * as Yup from "yup";
 

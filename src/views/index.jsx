@@ -8,7 +8,7 @@ import ProtectedRoute from "../components/route/ProtectedRoute";
 import PublicRoute from "../components/route/PublicRoute";
 import AuthorityGuard from "../components/route/AuthorityGuard";
 import AppRoute from "../components/route/AppRoute";
-import { Loading } from "../shared";
+import { Loading } from "../components/shared";
 
 const { authenticatedEntryPath } = appConfig;
 

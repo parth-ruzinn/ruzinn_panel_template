@@ -1,7 +1,7 @@
 import React  from 'react'
 import { Navigate, Outlet } from 'react-router-dom'
-import appConfig from 'configs/app.config'
-import useAuth from 'utils/hooks/useAuth'
+import appConfig from '../../configs/app.config'
+import useAuth from '../../utils/hooks/useAuth'
 
 const { authenticatedEntryPath } = appConfig
 

@@ -1,5 +1,5 @@
 import React from 'react'
-import { Dropdown } from 'components/ui'
+import { Dropdown } from '../../../components/ui'
 import HorizontalMenuNavLink from './HorizontalMenuNavLink'
 import { useTranslation } from 'react-i18next'
 

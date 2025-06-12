@@ -5,10 +5,10 @@ import {
 	SPLITTED_SIDE_NAV_SECONDARY_WIDTH,
 	DIR_LTR,
 	DIR_RTL
-} from 'constants/theme.constant'
+} from '../../../constants/theme.constant'
 import StackedSideNavMini from './StackedSideNavMini'
 import StackedSideNavSecondary from './StackedSideNavSecondary'
-import useResponsive from 'utils/hooks/useResponsive'
+import useResponsive from '../../../utils/hooks/useResponsive'
 import isEmpty from 'lodash/isEmpty'
 import { useSelector } from 'react-redux'
 import { useTranslation } from 'react-i18next'

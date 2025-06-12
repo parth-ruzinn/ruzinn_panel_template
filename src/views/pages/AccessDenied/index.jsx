@@ -1,5 +1,5 @@
 import React from 'react'
-import { Container, DoubleSidedImage } from 'components/shared'
+import { Container, DoubleSidedImage } from '../../../components/shared'
 
 const AccessDenied = () => {
 	return (

@@ -1,5 +1,5 @@
 import React from 'react'
-import Logo from 'components/template/Logo'
+import Logo from '../../components/template/Logo'
 import { useSelector } from 'react-redux'
 
 const HeaderLogo = () => {
