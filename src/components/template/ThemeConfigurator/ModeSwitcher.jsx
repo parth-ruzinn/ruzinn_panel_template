@@ -1,6 +1,6 @@
 import React, { useCallback } from 'react'
-import useDarkMode from 'utils/hooks/useDarkMode'
-import { Switcher } from 'components/ui'
+import useDarkMode from '../../../utils/hooks/useDarkMode'
+import { Switcher } from '../../../components/ui'
 
 const ModeSwitcher = () => {
 

@@ -1,9 +1,9 @@
 import React from 'react'
-import { Menu, Tooltip } from 'components/ui'
+import { Menu, Tooltip } from '../../../components/ui'
 import VerticalMenuIcon from './VerticalMenuIcon'
 import { Link } from 'react-router-dom'
 import { Trans, useTranslation } from 'react-i18next'
-import { AuthorityCheck } from 'components/shared'
+import { AuthorityCheck } from '../../../components/shared'
 
 const { MenuItem } = Menu
 

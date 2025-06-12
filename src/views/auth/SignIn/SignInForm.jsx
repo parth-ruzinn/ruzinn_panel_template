@@ -7,11 +7,11 @@ import {
   FormContainer,
   Alert,
 } from "components/ui";
-import { PasswordInput, ActionLink } from "components/shared";
-import useTimeOutMessage from "utils/hooks/useTimeOutMessage";
+import { PasswordInput, ActionLink } from "../../../components/shared";
+import useTimeOutMessage from "../../../utils/hooks/useTimeOutMessage";
 import { Field, Form, Formik } from "formik";
 import * as Yup from "yup";
-import useAuth from "utils/hooks/useAuth";
+import useAuth from "../../../utils/hooks/useAuth";
 
 const validationSchema = Yup.object().shape({
   userName: Yup.string().required("Please enter your user name"),

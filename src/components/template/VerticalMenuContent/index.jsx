@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from 'react'
-import { Menu } from 'components/ui'
+import { Menu } from '../../../components/ui'
 import VerticalSingleMenuItem from './VerticalSingleMenuItem'
 import VerticalCollapsedMenuItem from './VerticalCollapsedMenuItem'
-import { themeConfig } from 'configs/theme.config'
-import { NAV_ITEM_TYPE_TITLE, NAV_ITEM_TYPE_COLLAPSE, NAV_ITEM_TYPE_ITEM } from 'constants/navigation.constant'
-import useMenuActive from 'utils/hooks/useMenuActive'
+import { themeConfig } from '../../../configs/theme.config'
+import { NAV_ITEM_TYPE_TITLE, NAV_ITEM_TYPE_COLLAPSE, NAV_ITEM_TYPE_ITEM } from '../../../constants/navigation.constant'
+import useMenuActive from '../../../utils/hooks/useMenuActive'
 import { useTranslation } from 'react-i18next'
 
 const { MenuGroup } = Menu

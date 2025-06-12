@@ -4,7 +4,7 @@ import classNames from 'classnames'
 import withHeaderItem from '../../utils/hoc/withHeaderItem'
 import { useSelector, useDispatch } from 'react-redux'
 import { setLang } from '../../store/theme/themeSlice'
-import { dateLocales } from 'locales'
+import { dateLocales } from '../../locales'
 import dayjs from 'dayjs'
 import i18n from 'i18next'
 

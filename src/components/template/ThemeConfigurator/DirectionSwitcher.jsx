@@ -1,7 +1,7 @@
 import React from 'react'
-import { InputGroup, Button } from 'components/ui'
-import useDirection from 'utils/hooks/useDirection'
-import { THEME_ENUM } from 'constants/theme.constant'
+import { InputGroup, Button } from '../../../components/ui'
+import useDirection from '../../../utils/hooks/useDirection'
+import { THEME_ENUM } from '../../../constants/theme.constant'
 
 const dirList = [
 	{ value: THEME_ENUM.DIR_LTR, label: 'LTR' },

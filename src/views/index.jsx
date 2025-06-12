@@ -3,7 +3,7 @@ import { useSelector } from "react-redux";
 import { Routes, Route, Navigate } from "react-router-dom";
 import { protectedRoutes, publicRoutes } from "../configs/routes.config";
 import appConfig from "../configs/app.config";
-import PageContainer from "components/template/PageContainer";
+import PageContainer from "../components/template/PageContainer";
 import ProtectedRoute from "../components/route/ProtectedRoute";
 import PublicRoute from "../components/route/PublicRoute";
 import AuthorityGuard from "../components/route/AuthorityGuard";

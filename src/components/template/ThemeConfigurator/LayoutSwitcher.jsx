@@ -1,11 +1,11 @@
 import React from 'react'
 import classNames from 'classnames'
-import { Segment } from 'components/ui'
-import { SegmentItemOption, DoubleSidedImage } from 'components/shared'
+import { Segment } from '../../../components/ui'
+import { SegmentItemOption, DoubleSidedImage } from '../../../components/shared'
 import { HiCheckCircle } from 'react-icons/hi'
-import useThemeClass from 'utils/hooks/useThemeClass'
+import useThemeClass from '../../../utils/hooks/useThemeClass'
 import { useSelector, useDispatch } from 'react-redux'
-import { setLayout } from 'store/theme/themeSlice'
+import { setLayout } from '../../../store/theme/themeSlice'
 import { 
 	LAYOUT_TYPE_CLASSIC, 
 	LAYOUT_TYPE_MODERN,
@@ -13,7 +13,7 @@ import {
 	LAYOUT_TYPE_SIMPLE,
 	LAYOUT_TYPE_DECKED,
 	LAYOUT_TYPE_BLANK
-} from 'constants/theme.constant'
+} from '../../../constants/theme.constant'
 
 const layouts = [
 	{ 

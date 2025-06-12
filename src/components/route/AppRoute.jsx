@@ -1,6 +1,6 @@
 import React, { useEffect, useCallback } from 'react'
-import { setLayout, setPreviousLayout } from 'store/theme/themeSlice'
-import { setCurrentRouteKey } from 'store/base/commonSlice'
+import { setLayout, setPreviousLayout } from '../../store/theme/themeSlice'
+import { setCurrentRouteKey } from '../../store/base/commonSlice'
 import { useSelector, useDispatch } from 'react-redux'
 import { useLocation } from 'react-router-dom'
 

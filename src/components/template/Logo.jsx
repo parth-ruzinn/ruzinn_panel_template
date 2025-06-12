@@ -1,7 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import classNames from 'classnames'
-import { APP_NAME } from 'constants/app.constant'
+import { APP_NAME } from '../../constants/app.constant'
 
 const LOGO_SRC_PATH = '/img/logo/'
 

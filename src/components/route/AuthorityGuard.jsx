@@ -1,6 +1,6 @@
 import React from 'react'
 import { Navigate } from 'react-router-dom'
-import useAuthority from 'utils/hooks/useAuthority'
+import useAuthority from '../../utils/hooks/useAuthority'
 
 const AuthorityGuard = props => {
 
